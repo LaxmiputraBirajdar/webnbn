@@ -61,7 +61,7 @@ h2 {
 
 /* Media queries for responsiveness */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .department {
     width: calc(50% - 10px);
   }
@@ -71,7 +71,7 @@ h2 {
   .department {
     width: 100%;
   }
-}
+} */
 
 
 
@@ -99,7 +99,7 @@ h2 {
 }
 
 
-@media only screen and (max-width: 520px) {
+@media screen and (max-width: 416px) {
   .content-holder1 {
     margin: 0;
 
