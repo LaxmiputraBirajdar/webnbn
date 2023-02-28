@@ -1,0 +1,71 @@
+
+</div>
+</div>
+
+<div style="background-color: rgb(151, 191, 227); margin-bottom: 0; height: 100%;">
+
+  <h4 class="text-center">Developed and Maintained by</h4>
+  <h5 class="text-center">Computer Science and Engineering , CORE Commitee</h5>
+
+
+
+</div>
+
+  
+</div>
+
+
+<script>
+
+const toggleBtn = document.querySelector('.toggle-btn');
+const wrapper = document.querySelector('.wrapper');
+
+toggleBtn.addEventListener('click', () => {
+  wrapper.classList.toggle('active');
+});
+
+
+// java script changing heading element 
+// Get a reference to the heading element
+const heading = document.getElementById("myHeading");
+
+// Set an array of texts to cycle through
+const texts = ["Automation", "Communication", "Security"];
+
+// Set an index to keep track of which text to show
+let index = 0;
+
+// Set an interval to change the heading text every second
+let intervalId = setInterval(() => {
+  // Set the heading text to the current index of the texts array
+  heading.textContent = texts[index];
+  
+  // Increment the index, or reset to 0 if at end of array
+  index = (index + 1) % texts.length;
+}, 1000);
+
+// Add a mouseover event listener to the heading element
+heading.addEventListener("mouseover", () => {
+  // Clear the interval to stop the text from changing
+  clearInterval(intervalId);
+});
+
+// Add a mouseout event listener to the heading element
+heading.addEventListener("mouseout", () => {
+  // Set a new interval to resume changing the text
+  intervalId = setInterval(() => {
+    // Set the heading text to the current index of the texts array
+    heading.textContent = texts[index];
+    
+    // Increment the index, or reset to 0 if at end of array
+    index = (index + 1) % texts.length;
+  }, 1000);
+});
+
+
+
+
+</script>
+</body>
+</html>
+
