@@ -1,0 +1,15 @@
+{
+  "name": "newweb",
+  "version": "1.0.0",
+  "description": "THis is the Simple web site ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laxmiputra",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
