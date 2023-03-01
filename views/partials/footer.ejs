@@ -5,8 +5,16 @@
 </div>
 
 
-  
 </div>
+
+
+<footer>
+  <div class="footer-content">
+    <p class="text-center">Designed and Maintained By Department of Computer Science and Engineering </p>
+
+    <p>Copyright&copy; ICETACS-2023  All rights reserved.</p>
+  </div>
+</footer>
 
 
 <script>
@@ -21,40 +29,40 @@ toggleBtn.addEventListener('click', () => {
 
 // java script changing heading element 
 // Get a reference to the heading element
-const heading = document.getElementById("myHeading");
+// const heading = document.getElementById("myHeading");
 
 // Set an array of texts to cycle through
-const texts = ["Automation", "Communication", "Security"];
+// const texts = ["Automation", "Communication", "Security"];
 
 // Set an index to keep track of which text to show
-let index = 0;
+// let index = 0;
 
 // Set an interval to change the heading text every second
-let intervalId = setInterval(() => {
-  // Set the heading text to the current index of the texts array
-  heading.textContent = texts[index];
+// let intervalId = setInterval(() => {
+//   // Set the heading text to the current index of the texts array
+//   heading.textContent = texts[index];
   
-  // Increment the index, or reset to 0 if at end of array
-  index = (index + 1) % texts.length;
-}, 1000);
+//   // Increment the index, or reset to 0 if at end of array
+//   index = (index + 1) % texts.length;
+// }, 1000);
 
-// Add a mouseover event listener to the heading element
-heading.addEventListener("mouseover", () => {
-  // Clear the interval to stop the text from changing
-  clearInterval(intervalId);
-});
+// // Add a mouseover event listener to the heading element
+// heading.addEventListener("mouseover", () => {
+//   // Clear the interval to stop the text from changing
+//   clearInterval(intervalId);
+// });
 
 // Add a mouseout event listener to the heading element
-heading.addEventListener("mouseout", () => {
-  // Set a new interval to resume changing the text
-  intervalId = setInterval(() => {
-    // Set the heading text to the current index of the texts array
-    heading.textContent = texts[index];
+// heading.addEventListener("mouseout", () => {
+//   // Set a new interval to resume changing the text
+//   intervalId = setInterval(() => {
+//     // Set the heading text to the current index of the texts array
+//     heading.textContent = texts[index];
     
-    // Increment the index, or reset to 0 if at end of array
-    index = (index + 1) % texts.length;
-  }, 1000);
-});
+//     // Increment the index, or reset to 0 if at end of array
+//     index = (index + 1) % texts.length;
+//   }, 1000);
+// });
 
 
 

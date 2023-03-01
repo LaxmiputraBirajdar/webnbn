@@ -12,8 +12,15 @@
 nav{
   position:absolute;
   /* background: rgb(255,255,255);
+
 background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(210,222,241,1) 89%); */
-background: #000000;
+/* 
+background: rgb(207,207,214);
+background: linear-gradient(148deg, rgba(207,207,214,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%); */
+background-color: #f2f2f2;
+
+box-shadow: 2px 2px 4px 2px 
+          rgba(0, 0, 0, 0.2);
   width: 100%;
   padding: 5px 0;
   z-index: 12;
@@ -43,9 +50,10 @@ nav .menu{
 .img{
   background: url('img3.jpg')no-repeat;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 
-  background-color: red;
+  background: rgb(6,5,34);
+  background: linear-gradient(313deg, rgba(6,5,34,1) 37%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -76,6 +84,7 @@ nav .menu{
   color: #fff;
   font-size: 55px;
   font-weight: 600;
+  font-family: 'Roboto Slab', serif;
 
   
 }
@@ -84,6 +93,8 @@ nav .menu{
   color: #fff700;
   font-size: 55px;
   font-weight: 600;
+  font-family: 'Roboto Slab', serif;
+  
 
   
 }
@@ -100,6 +111,7 @@ nav .menu{
   color: #fff;
   font-size: 52px;
   font-weight: 600;
+  font-family: 'Roboto Slab', serif;
 }
 
 .College-name-mobile{
@@ -115,6 +127,23 @@ nav .menu{
   font-size: 1em;
 }
 
+
+
+/* footer */
+footer {
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  padding: 10px;
+
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 
 
