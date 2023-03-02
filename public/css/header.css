@@ -37,6 +37,8 @@ nav .menu{
 
 .logo{
   text-align: center;
+  display: flex;
+  justify-content:center;
 }
 
 
@@ -45,6 +47,10 @@ nav .menu{
   color: #ffffff;
   font-size: 35px;
   font-weight: 1000;
+}
+
+.logo img{
+
 }
 
 .img{
