@@ -128,7 +128,22 @@
     top: 10px;
     left: 10px;
     z-index: 10000;
+    background-color: transparent;
+    border: 0;
+   
     }
+
+    .toggle-btn div{
+    
+        width: 35px;
+        height: 7px;
+        background-color:#fff;
+        margin: 6px 0;
+        border: solid 1px black;
+        
+     
+      }
+      
   
   
   

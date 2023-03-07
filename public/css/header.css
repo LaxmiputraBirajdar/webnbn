@@ -25,38 +25,35 @@ box-shadow: 2px 2px 4px 2px
   padding: 5px 0;
   z-index: 12;
 }
-nav .menu{
+/* nav .menu{
   max-width: 1250px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-}
+} */
 
-
+/* 
 .logo{
   text-align: center;
   display: flex;
   justify-content:center;
-}
+} */
 
 
- .logo a{
+ /* .logo a{
   text-decoration: none;
   color: #ffffff;
   font-size: 35px;
   font-weight: 1000;
-}
+} */
 
-.logo img{
-
-}
 
 .img{
   background: url('img3.jpg')no-repeat;
   width: 100%;
-  height: 88vh;
+  height: 65vh;
 
   /* background: rgb(6,5,34);
   background: linear-gradient(313deg, rgba(6,5,34,1) 37%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%); */
@@ -75,29 +72,34 @@ nav .menu{
 
 .img img{
   width: 100%;
-  height: 88vh;
+  height: 65vh;
 }
 
 .img::before{
   content: '';
   position: absolute;
-  height: 88vh;
+  height:0vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
 .center{
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  padding: 0 20px;
+  padding: 0 26x;
   text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .center .title{
-  margin-top: 200px;
-  color: #fff;
-  font-size: 55px;
+  /* margin-top: 50px; */
+  color: #fff94c;
+  font-size: 45px;
   font-weight: 600;
   font-family: 'Roboto Slab', serif;
 
@@ -105,8 +107,8 @@ nav .menu{
 }
 
 .center .title2{
-  color: #fff700;
-  font-size: 55px;
+  color: #fff94c;
+  font-size: 45px;
   font-weight: 600;
   font-family: 'Roboto Slab', serif;
   
@@ -115,7 +117,7 @@ nav .menu{
 }
 
 .center .title2:hover{
-  color: #fff700;
+  color: #fff94c;
 
 
   
@@ -123,11 +125,25 @@ nav .menu{
 
 
 .center .sub_title{
-  color: #fff;
-  font-size: 52px;
+  color: #fff94c;
+  font-size: 45px;
   font-weight: 600;
   font-family: 'Roboto Slab', serif;
 }
+
+
+.p1, .p3{
+  font-size: 40px;
+}
+
+.p2{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+
+
+
 
 .College-name-mobile{
   display: none;
@@ -180,6 +196,8 @@ footer {
 
 
 
+
+
 @media only screen and (max-width: 620px){
   .center .title{
       color: #fff;
@@ -194,7 +212,7 @@ footer {
     }
     .center .sub_title{
       color: #fff;
-      font-size: 32px;
+      font-size: 35px;
       font-weight: 600;
     }
 
@@ -208,20 +226,25 @@ footer {
       text-align: center;
     }
 
-    .College-name-web{
-      display: none;
-    }
 
-    .College-name-mobile{
-      display: block;
-    }
-
-    .data-add{
-      margin-top: 5%;
-    }
 
     .font-1em{
       font-size: 0.7em;
+    }
+
+    .p1, .p3{
+      font-size: 30px;
+    }
+    
+    .p2{
+      font-size: 20px;
+    }
+
+    .img{
+      height: 77vh;
+    }
+    .img img{
+      height: 77vh;
     }
 
 
