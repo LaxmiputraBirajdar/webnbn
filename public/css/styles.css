@@ -310,6 +310,97 @@ background: #000000;
     }
   
   }
+
+
+
+ 
+  /* code to registeration detail table 
+   */
+   .registration-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 800px; /* Optional: add a max-width to the table */
+  }
+  
+  .registration-table th, .registration-table td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .registration-table th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .registration-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .registration-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .registration-table td:first-child {
+    font-weight: bold;
+  }
+
+
+
+  .para {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  em {
+    font-style: italic;
+  }
+
+  .payment-mode {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-mode h3 {
+    margin-top: 0;
+  }
+  
+  .payment-mode ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .payment-mode li {
+    margin-bottom: 10px;
+  }
+  .payment-mode li:first-child {
+    font-weight: bold;
+  }
+
+
+
+
+  /* css code fot committee */
+  
+  
+
+  
+  
+
+
+  
+  
   
 
 
