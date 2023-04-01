@@ -9,22 +9,7 @@
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(210,222,241,1) 89%); */
   background: #fff;
 }
-nav{
-  position:absolute;
-  /* background: rgb(255,255,255);
 
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(210,222,241,1) 89%); */
-/* 
-background: rgb(207,207,214);
-background: linear-gradient(148deg, rgba(207,207,214,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%); */
-background-color: #f2f2f2;
-
-box-shadow: 2px 2px 4px 2px 
-          rgba(0, 0, 0, 0.2);
-  width: 100%;
-  padding: 5px 0;
-  z-index: 12;
-}
 /* nav .menu{
   max-width: 1250px;
   margin: auto;
@@ -84,7 +69,7 @@ box-shadow: 2px 2px 4px 2px
 }
 .center{
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -132,12 +117,12 @@ box-shadow: 2px 2px 4px 2px
 }
 
 
-.p1, .p3{
-  font-size: 40px;
+.p1,.p3{
+  font-size: 30px;
 }
 
 .p2{
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 5px;
 }
 
@@ -182,6 +167,56 @@ footer {
 
 
 
+/* new header css */
+ nav {
+  flex-wrap: wrap;
+  background-color: transparent;
+  position: fixed;
+  box-shadow: none;
+
+}
+
+.nav-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link {
+  padding: 10px;
+  text-decoration: none;
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: rgb(0, 30, 255) !important; 
+  background-color: white; 
+}
+
+nav a{
+  color: white;
+}
+
+
+.nav {
+  position: fixed;
+  top: 0;
+  display: block;
+  left: 0;
+  width: 100%;
+  transition: background-color 0.1s ease-in-out; 
+}
+
+.nav.scrolled {
+
+  background-image: linear-gradient(to right top, #000000, #090105, #0e030c, #100514, #0f091a, #0c0f1f, #071524, #001928, #001f2a, #002529, #002a26, #102f21);
+}
+
+
+
+ 
 
 
 
@@ -198,7 +233,9 @@ footer {
 
 
 
-@media only screen and (max-width: 620px){
+
+
+@media only screen and (max-width: 520px){
   .center .title{
       color: #fff;
       font-size: 35px;
@@ -232,8 +269,8 @@ footer {
       font-size: 0.7em;
     }
 
-    .p1, .p3{
-      font-size: 30px;
+    .p1 .p3{
+      font-size: 10px;
     }
     
     .p2{
@@ -247,6 +284,14 @@ footer {
       height: 77vh;
     }
 
+   
+
+    .nav{
+      display: none !important;
+    }
+
+
+ 
 
 
 
@@ -260,3 +305,8 @@ footer {
 .bold{
   font-weight: 1000;
 }
+
+
+
+
+

@@ -82,6 +82,24 @@ for (i = 0; i < coll.length; i++) {
 
 
 
+// Get the nav element
+var nav = document.querySelector('.nav');
+
+// Get the offset position of the nav element
+var navOffset = nav.offsetTop;
+
+// Add a scroll event listener to the window
+window.addEventListener('scroll', function() {
+  // If the user has scrolled past the nav element, add the 'scrolled' class
+  if (window.pageYOffset > navOffset) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+});
+
+
+
 
 </script>
 </body>

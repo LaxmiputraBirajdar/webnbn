@@ -168,36 +168,10 @@
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(210,222,241,1) 89%); */
     background: #fff;
   }
-  nav{
-    position:absolute;
-    /* background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(210,222,241,1) 89%); */
-background: #000000;
-    width: 100%;
-    padding: 5px 0;
-    z-index: 12;
-  }
-  nav .menu{
-    max-width: 1250px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-  }
+ 
 
 
-  .logo{
-    text-align: center;
-  }
 
-
-   .logo a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 35px;
-    font-weight: 1000;
-  }
 
   .img{
     background: url('img3.jpg')no-repeat;
@@ -284,6 +258,61 @@ background: #000000;
     font-weight: 1000;
  }
    
+
+
+
+ .key-features {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  /* background-color: #f9f9f9; */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.key-features h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* .key-features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .key-features li {
+  font-size: 20px;
+  margin-bottom: 10px;
+} */
+
+/* .key-features li i {
+  color: #2ecc71;
+  margin-right: 10px;
+}
+
+.key-features p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+} */
+
+
+
+
+
+
+
+
+
+/* css for committee */
+
+
+
+
+
+
+
 
   
 
@@ -392,6 +421,13 @@ background: #000000;
 
 
   /* css code fot committee */
+  
+
+
+
+  /* backgroud vide css */
+
+
   
   
 
