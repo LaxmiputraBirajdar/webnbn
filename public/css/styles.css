@@ -135,7 +135,7 @@
 
     .toggle-btn div{
     
-        width: 20px;
+        width: 30px;
         height: 4px;
         background-color:#fff;
         margin: 6px 0;
@@ -436,6 +436,12 @@
 
 
   /* css code fot committee */
+
+  .line {
+    height: 1.5px;
+    width: 70%;
+    background: linear-gradient(to right, #008080, #00bfff);
+  }
 
   
 
