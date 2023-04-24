@@ -433,6 +433,34 @@
 
   /* backgroud vide css */
 
+  .submission-info {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+  }
+  
+  .submission-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .submission-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .more-info {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+
+  /* css code for the Advisiory Commettee */
+
+  
+
+
 
   
   

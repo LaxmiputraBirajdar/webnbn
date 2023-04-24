@@ -1,0 +1,127 @@
+<%- include("partials/header") -%>
+
+<style>
+    /* Reset default browser styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Set base font size and line height */
+html {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Add padding to header */
+header {
+	padding: 2rem;
+}
+
+/* Style heading */
+h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+    margin: 0 15% 0 15% !important;
+}
+
+/* Add padding to main content */
+main {
+	padding: 2rem;
+    margin: 0 15% 0 15% !important;
+}
+
+/* Style sections */
+section {
+	margin-bottom: 2rem;
+}
+
+/* Style section headings */
+h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+/* Style links */
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Make images responsive */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Style the columns */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* Responsive layout - makes the columns stack on top of each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+}
+
+
+</style>
+
+<div class="contact-body" style="background-color: white; box-shadow: 0 2px 5px rgba(0,0,0,0.2); width: 100%; border-radius: 5px;">
+
+    <h2 class="text-center">	Previous Conference</h2>
+
+    <header >
+		<h1  >Innovative Technologies for Rural Development and Their Commercialization- A multi-mega event 2017</h1>
+	</header>
+
+	<main >
+		<section>
+			<h2>National level conference on “Engineering materials for technology applications with special reference to renewable and nuclear energy” conducted in collaboration with Bhabha Automic Research Centre (BARC) Mumbai</h2>
+			<a href="/pdfs/ITRDC.pdf" target="_blank" class="text-center">Conference Brochure</a>
+			<p>For more information about the conference, visit the <a href="https://sites.google.com/view/sinhgaditrdc" target="_blank"> conference website: https://sites.google.com/view/sinhgaditrdc</a>.</p>
+		</section>
+        <br>
+
+        <h2 class="text-center" >Glimpse</h2>
+
+        <div class="row">
+            <div class="column">
+              <img src="/images/glimse1.png" alt="Photo 1">
+            </div>
+            <div class="column">
+              <img src="/images/glimse2.jpg" alt="Photo 2">
+            </div>
+            <div class="column">
+              <img src="/images/glimse3.jpg" alt="Photo 3">
+            </div>
+          </div>
+          
+
+		
+	</main>
+
+
+    
+    
+    
+    
+    </div> 
+
+
+
+<%- include("partials/footer") -%>
