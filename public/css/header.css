@@ -216,12 +216,25 @@ nav a{
   transition: background-color 0.1s ease-in-out; 
 }
 
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  /* Add other styles as needed */
+}
 .nav.scrolled {
 
   /* background-image: linear-gradient(to right top, #000000, #090105, #0e030c, #100514, #0f091a, #0c0f1f, #071524, #001928, #001f2a, #002529, #002a26, #102f21); */
 
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(56,21,68,1) 51%, rgba(25,5,56,1) 91%);
+
+
+background-image: linear-gradient(to right top, #000000, #090105, #0e030c, #100514, #0f091a, #0c0f1f, #071524, #001928, #001f2a, #002529, #002a26, #102f21);
+
+
 }
 
 
@@ -265,7 +278,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(56,21,68,1) 51%, rgb
 
     .center{
       position: absolute;
-      top: 40%;
+      top: 48%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
@@ -288,10 +301,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(56,21,68,1) 51%, rgb
     }
 
     .img{
-      height: 82vh;
+      height: 87vh;
     }
     .img img{
-      height: 82vh;
+      height: 87vh;
     }
 
    
@@ -310,6 +323,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(56,21,68,1) 51%, rgb
 
 
 }
+
+
+
 
 .white{
   color: white;
