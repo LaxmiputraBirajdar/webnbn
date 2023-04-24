@@ -1,11 +1,69 @@
 <%- include("partials/head2") -%>
 
 <style>
+
+  
   img {
   height: 60%;
   width: 30%;
   height: auto;
 }
+
+/* Styling for the Chief Patrons section */
+
+/* Center the heading */
+.chief-patrons h3 {
+  text-align: center;
+}
+
+/* Set a maximum width for the container and center it */
+.chief-patrons {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Set a maximum width for the list items */
+.chief-patrons ul li {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Style the images */
+.chief-patrons ul li img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Style the names and positions */
+.chief-patrons ul li .name,
+.chief-patrons ul li .position {
+  text-align: center;
+}
+
+/* Set a maximum width for the names and positions */
+.chief-patrons ul li .name,
+.chief-patrons ul li .position {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Make the details responsive */
+@media (max-width: 767px) {
+  /* Set the list items to display as blocks */
+  .chief-patrons ul li {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  /* Remove the margins from the names and positions */
+  .chief-patrons ul li .name,
+  .chief-patrons ul li .position {
+    margin: 0;
+  }
+}
+
 
 </style>
 
@@ -226,6 +284,7 @@ background-color: rgb(234, 234, 234);">
                     <li>
                     <h6 class="name">Dr. V. V. Kharat</h6>
                     <p class="position">HoD (General Science Engg.)</p>
+                    <p>hello</p>
                     </li>
                     <br>
                     </ul>
