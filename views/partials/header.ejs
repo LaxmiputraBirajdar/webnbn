@@ -31,11 +31,65 @@
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
 
+
+
 </head>
 
 
 
 </head>
+
+<style>
+
+
+
+marquee {
+  width: 70%;
+  white-space: nowrap;
+  color: white;
+font-size: 20px;
+font-weight: bolder;
+}
+
+.notification {
+  width: 70%;
+
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+@media only screen and (max-width: 520px){
+  marquee {
+  width: 100%;
+  white-space: nowrap;
+  color: white;
+font-size: 20px;
+font-weight: bolder;
+}
+
+.notification {
+  width: 100%;
+
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+}
+
+</style>
 
 
 
@@ -85,6 +139,18 @@
   <p class="text-center p1" style="color: white;">(ICETACS-2023)</p>
   <p class="text-center p2" style="color: white;">Hybrid Mode</p>
   <p class="text-center p3" style="color: white;">July 20th & 21st 2023</p>
+
+
+
+  <div class="notification">
+    <marquee behavior="scroll" direction="left">
+      <span class="blink">
+        Last registration date: 30th June 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Last registration date: 30th June 2023 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Last registration date: 30th June 2023  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Last registration date: 30th June 2023   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Last registration date: 30th June 2023  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Last registration date: 30th June 2023 
+      </span>
+    </marquee>
+  </div>
+  <br>
+  
 
   
 
