@@ -278,7 +278,7 @@ background-image: linear-gradient(to right top, #000000, #090105, #0e030c, #1005
 
     .center{
       position: absolute;
-      top: 48%;
+      top: 55%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
@@ -301,10 +301,10 @@ background-image: linear-gradient(to right top, #000000, #090105, #0e030c, #1005
     }
 
     .img{
-      height: 92vh;
+      height: 95vh;
     }
     .img img{
-      height: 92vh;
+      height: 95vh;
     }
 
    
